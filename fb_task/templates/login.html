@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+
+         <button class="btn btn-primary mb-2">
+             <a href="{% url 'social:begin' 'facebook' %}">Login with Facebook
+             </a>
+         </button>
+            <button class="btn btn-primary mb-2">
+             <a href="{% url 'social:begin' 'github' %}">Login with GITHUB
+             </a>
+         </button>
+         <button class="btn btn-info mb-2">
+             <a href="{% url 'social:begin' 'linkedin-oauth2' %}">Login with LinkedIn</a>
+         </button>
+        <button class="btn btn-primary mb-2">
+             <a href="{% url 'social:begin' 'instagram' %}">Login with Instagram
+             </a>
+         </button>
+
+</body>
+</html>
